@@ -1,0 +1,14 @@
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.parent{
+  width: 100%;
+}
+
+.word{
+  user-select: none;
+}
