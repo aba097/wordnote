@@ -43,8 +43,7 @@ session_start();
       exit();
     }
 
-
-    $mysqli = new mysqli('mysql153.phy.lolipop.lan', 'LAA1321771', 'Soccer3639', 'LAA1321771-wordnote');
+    $mysqli = new mysqli(/*YOUR INFORMATION*/);
     if($mysqli->connect_error){
       echo $mysqli->connect_error;
       exit();
