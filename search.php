@@ -50,7 +50,7 @@
       $name = "%";
     }
 
-    $myaqli = new mysqli(/*YOUR INFORMATION*/)
+    $myaqli = new mysqli(/*YOUR INFORMATION*/);
     if($mysqli->connect_error){
       echo $mysqli->connect_error;
       exit();
@@ -69,7 +69,7 @@
         print('<div class="container-fluid">');
         print('<form method="GET" action="./check.php">');
         print('<div class="row">');
-        $mysqli2 = new mysqli('mysql153.phy.lolipop.lan', 'LAA1321771', 'Soccer3639', 'LAA1321771-wordnote');
+        $mysqli2 = new mysqli(/*YOUR INFORMATION*/);
         $stmt->bind_result($id, $t, $n);
         while($stmt->fetch()){
           print('<div class="border border-3 rounded p-2 col-md-3">');
