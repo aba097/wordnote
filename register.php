@@ -18,7 +18,7 @@ session_start();
     $backdata = $_SESSION['backdata'];
     $id = 0;
 
-    $mysqli = new mysqli('mysql153.phy.lolipop.lan', 'LAA1321771', 'Soccer3639', 'LAA1321771-wordnote');
+    $mysqli = new mysqli(/*your infomation*/);
     if($mysqli->connect_error){
       echo $mysqli->connect_error;
       exit();
